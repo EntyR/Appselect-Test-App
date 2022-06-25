@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.enticity.appselect">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="com.enticity.presentation.application.AppSelectApplication"
         android:allowBackup="true"
@@ -12,13 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppSelect">
         <activity
-            android:name="com.enticity.presentation.ui.activity.MainActivity"
-            android:exported="true">
+            android:name="com.enticity.presentation.ui.activity.SplashScreenActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.enticity.presentation.ui.activity.MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 
