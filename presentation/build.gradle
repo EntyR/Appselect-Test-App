@@ -69,5 +69,5 @@ dependencies {
 
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.0-rc02")
 
-
+    implementation 'androidx.fragment:fragment-ktx:1.5.0-rc01'
 }

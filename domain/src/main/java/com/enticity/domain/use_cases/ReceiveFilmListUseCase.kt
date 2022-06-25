@@ -6,7 +6,7 @@ import com.enticity.domain.repository.IFilmRepository
 class ReceiveFilmListUseCase(
     private val filmRepository: IFilmRepository
 ) {
-    operator fun invoke(): List<FilmModel> {
-        return filmRepository.receiveFilmList()
+    suspend fun receive(offset: Int, key: String): List<FilmModel> {
+        return filmRepository.receiveFilmList(offset, key)
     }
 }
