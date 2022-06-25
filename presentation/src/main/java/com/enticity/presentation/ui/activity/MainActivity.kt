@@ -1,4 +1,4 @@
-package com.enticity.presentation
+package com.enticity.presentation.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

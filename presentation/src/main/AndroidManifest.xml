@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppSelect">
         <activity
-            android:name="com.enticity.presentation.MainActivity"
+            android:name="com.enticity.presentation.ui.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
